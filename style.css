@@ -1,0 +1,120 @@
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.game {
+  align-content: center;
+}
+#background_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 45%;
+}
+
+body {
+  background-image: linear-gradient(red, orange);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.button {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.button2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#card {
+  margin-right: 100px;
+}
+
+.playerTitles {
+  display: flex;
+  justify-content: center;
+  font-size: 85px;
+  color: whitesmoke;
+  font-family: serif;
+  column-gap: 200px;
+}
+
+.output {
+  margin-top: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 12px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+
+.myButton2 {
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 12px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+/*.myButton3 {
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 12px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}*/
+.myButton:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+.myButton:active {
+  position: relative;
+  top: 5px;
+}
